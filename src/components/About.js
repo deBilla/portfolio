@@ -11,9 +11,9 @@ export default function About() {
               apps.
             </h1>
             <p className="mb-8 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-              laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-              Laborum, voluptas natus?
+              I'm a passionate software engineer specialized in bulding high performing scalable backend applications. I love to work with
+              Spring boot with Java and Node JS with Typescript. I have a high regard on Documentation and I like to code clean code.
+              I'm also a tech blogger, trying new things and teach others how to try it.
             </p>
             <div className="flex justify-center">
               <a
@@ -25,6 +25,11 @@ export default function About() {
                 href="#projects"
                 className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                 See My Past Work
+              </a>
+              <a
+                href="https://billa-code.medium.com/"
+                className="ml-4 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                See my Blog
               </a>
             </div>
           </div>
