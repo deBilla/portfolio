@@ -1,11 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Serendib Scholarship Data Store",
+    subtitle: "React, Typescript, AWS SAM, NodeJS, GCP",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "This project was done for a non profit organization called serendib trust. I have added all the details of the implementation in medium articles. Backend done different ways.",
+    image: "./serendib.gif",
+    link: "https://github.com/deBilla/serendib-scholarship-ui",
+  },
+  {
+    title: "Stock Market Watch List",
+    subtitle: "Flutter, Dart, Spring boot, Java, Kafka, Yahoo API",
+    description:
+      "This was my first pet project for my medium blog. I needed to learn Flutter, so did this and taught others along the way but what I really learned was Spring boot.",
+    image: "./stockwatchlist.webp",
+    link: "https://github.com/deBilla/yahoo-stock-backend",
   }
 ];
 
@@ -27,10 +35,14 @@ export const testimonials = [
 ];
 
 export const skills = [
+  "Spring boot",
+  "Java",
+  "AWS",
+  "GCP",
   "JavaScript",
   "React",
   "Next.js",
   "Node",
   "GraphQL",
-  "Material UI",
+  "REST"
 ];
