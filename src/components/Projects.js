@@ -2,6 +2,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React, { useState, useEffect } from "react";
 import { projects } from "../data";
 import Spinner from "./Spinner";
+import ImageContainer from "./ImageContainer";
 
 export default function Projects() {
   const [loading, setLoading] = useState(true);
@@ -34,7 +35,7 @@ export default function Projects() {
                 className="sm:w-1/2 w-100 p-4"
               >
                 <div className="flex relative">
-                  <img
+                  <ImageContainer
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src={project.image}

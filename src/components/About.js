@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "./AboutImg";
+import ImageContainer from "./ImageContainer";
 
 export default function About() {
   return (
@@ -39,7 +39,13 @@ export default function About() {
             </a>
           </div>
         </div>
-        <AboutImg />
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <ImageContainer
+            className="object-cover object-center rounded"
+            alt="hero"
+            src="./coding.svg"
+          />
+        </div>
       </div>
     </section>
   );
